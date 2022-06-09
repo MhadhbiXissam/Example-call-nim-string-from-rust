@@ -1,6 +1,9 @@
 # Example-call-nim-string-from-rust
 
-`fn main() {
+
+
+```
+fn main() {
     let output = Command::new("nim")
         .arg("c")
         .arg("--noMain")
@@ -23,4 +26,6 @@
         .compile("fib_nim");
 }
 
-`
+```
+
+
